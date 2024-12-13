@@ -1,0 +1,49 @@
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    font-family: Arial, sans-serif;
+}
+
+.welcome-container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    padding: 20px;
+}
+
+.welcome-container h1 {
+    font-size: 2.5rem;
+    color: #6f42c1; /* Morado para el título */
+}
+
+.welcome-container p {
+    font-size: 1.2rem;
+    color: #e0e0e0; /* Texto gris claro */
+}
+
+.btn-action {
+    background-color: #ffd700; /* Azul para los botones */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+
+.btn-action:hover {
+    background-color: #ffd700; /* Azul más oscuro al pasar el mouse */
+}
+
+footer {
+    text-align: center;
+    background-color: #6f42c1; /* Morado */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,84 @@
+body {
+    background: url('/Imagenes/Fondo.jpeg') no-repeat center center fixed; /* Ruta de la imagen */
+    background-size: cover; /* La imagen ocupa todo el fondo */
+    color: #ffffff; /* Texto claro */
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #6f42c1; /* Morado */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffd700; /* Amarillo */
+    border-radius: 5px;
+    background-color: #f1f1f1; /* Gris claro */
+    font-size: 1rem;
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #6f42c1; /* Morado al enfocar */
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #6f42c1; /* Morado */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Navegación */
+nav {
+    background-color: #4b0082;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #ffd700; /* Amarillo dorado */
+    border-color: #ffd700;
+    color: #2c003e; /* Texto oscuro */
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2c003e; /* Fondo oscuro al pasar el mouse */
+    color: #ffd700; /* Texto dorado */
+    border: 2px solid #ffd700;
+}

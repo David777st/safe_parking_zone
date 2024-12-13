@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    background: url('/Imagenes/Fondo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del saludo */
+.welcome-header {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.welcome-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.welcome-header p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Cards personalizadas */
+.card-custom {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #6f42c1; /* Morado */
+    color: #000000;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Botón personalizado */
+.btn-custom {
+    background-color: #ffd700; /* Amarillo */
+    border-color: #ffd700;
+    color: #2c003e; /* Texto oscuro */
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #2c003e; /* Fondo oscuro al pasar el mouse */
+    color: #ffd700; /* Texto dorado */
+    border: 2px solid #ffd700;
+}
+
+/* Estilos responsivos */
+@media (max-width: 767px) {
+    .card-custom {
+        margin-bottom: 15px;
+    }
+
+    .welcome-header h1 {
+        font-size: 1.5rem;
+    }
+}

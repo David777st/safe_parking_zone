@@ -1,0 +1,118 @@
+body {
+    background: linear-gradient(to bottom, #6f42c1, #f8f9fa); /* Degradado de morado a gris claro */
+    color: #333; /* Texto oscuro para buena legibilidad */
+    font-family: Arial, sans-serif; /* Tipografía sencilla y legible */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4e1c92; /* Fondo morado oscuro */
+    color: white; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.header h1 {
+    font-size: 2.5rem; /* Tamaño grande para el encabezado */
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2rem; /* Tamaño de texto más pequeño para el subtítulo */
+    margin: 5px 0 0;
+}
+
+.services-section {
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 20px;
+    background: rgba(111, 66, 193, 0.1); /* Fondo morado claro */
+    border-radius: 10px;
+}
+
+.services-section h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #ffd700; /* Título en color amarillo dorado */
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre los elementos */
+}
+
+.service-item {
+    width: 220px;
+    background-color: #ffffff; /* Fondo blanco para los ítems de servicio */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento en hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+.service-item i {
+    font-size: 3rem; /* Tamaño grande para los íconos */
+    color: #6f42c1; /* Color morado para los íconos */
+    margin-bottom: 10px; /* Espaciado debajo del ícono */
+}
+
+.service-item p {
+    font-size: 1rem; /* Tamaño estándar de texto */
+    margin: 0;
+}
+
+.contact-form {
+    background: white; /* Fondo blanco */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    max-width: 600px;
+    margin: 40px auto; /* Centrado del formulario */
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6f42c1; /* Título en color morado */
+}
+
+footer {
+    text-align: center;
+    background-color: #3a1a66; /* Morado oscuro para mejor contraste */
+    color: white; /* Texto blanco para mayor legibilidad */
+    padding: 10px 0;
+    margin-top: 40px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3); /* Sombra superior para separación */
+    font-size: 0.9rem; /* Tamaño de texto ajustado */
+    border-top: 2px solid #6f42c1; /* Línea decorativa */
+}
+
+/* Navegación */
+nav {
+    background-color: #4b0082;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

@@ -1,0 +1,81 @@
+body {
+    background: url('/Imagenes/Fondo.jpeg') no-repeat center center fixed; /* Fondo con imagen */
+    background-size: cover; /* Escala la imagen para ocupar todo el fondo */
+    color: #ffffff; /* Texto claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.table-container {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto; /* Centrando la tabla */
+    max-width: 900px; /* Ajuste para evitar que la tabla sea demasiado ancha */
+}
+
+h1, h3 {
+    text-align: center;
+    color: #4e1c92; /* Morado */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: center;
+    padding: 12px 15px;
+    border: 1px solid #ffd700; /* Borde amarillo */
+}
+
+table th {
+    background-color: #ffd700; /* Amarillo */
+    color: #2c003e; /* Texto oscuro */
+}
+
+table td {
+    background-color: #f1f1f1; /* Gris claro */
+    color: #333;
+}
+
+.nav-tabs .nav-link {
+    font-weight: bold;
+    color: #ffd700; /* Amarillo */
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #ffd700; /* Amarillo más oscuro */
+    color: #ffffff; /* Texto oscuro */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #6f42c1; /* Morado */
+    color: white;
+}
+/* Navegación */
+nav {
+    background-color: #4b0082;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

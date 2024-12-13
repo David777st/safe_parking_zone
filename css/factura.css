@@ -1,0 +1,68 @@
+/* Fondo */
+body {
+    background-image: url('./Imagenes/Fondo.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navegación */
+nav {
+    background-color: #4b0082;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Contenedor de Factura */
+.factura {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    text-align: center;
+}
+
+.factura h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+/* Resultado dinámico */
+#traer-resultado {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .factura {
+        width: 90%;
+    }
+
+    .factura h1 {
+        font-size: 24px;
+    }
+}
